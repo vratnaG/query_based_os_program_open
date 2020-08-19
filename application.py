@@ -20,11 +20,11 @@ while True:
         if (notepad[0] in texts) or (notepad[1] in texts) or (notepad[2] in texts) or (notepad[3] in texts) or (notepad[4] in texts):
             ts.speak('opening notepad')
             os.system(
-                '/System/Applications/Calculator.app/Contents/MacOS/Calculator')
+                'notepad')
         elif (browser[0] in texts) or (browser[1] in texts) or (browser[2] in texts) or (browser[3] in texts) or (browser[4] in texts):
             ts.speak('opening chrome browser')
             os.system(
-                '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome')
+                'Chrome')
         elif (player[1] in texts) or (player[2] in texts):
             if (player[0] in texts or player[3] in texts):
                 ts.speak('opening window media player')
